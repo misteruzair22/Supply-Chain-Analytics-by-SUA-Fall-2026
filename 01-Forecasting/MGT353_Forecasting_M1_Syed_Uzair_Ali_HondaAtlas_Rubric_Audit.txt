@@ -1,0 +1,68 @@
+MGT-353 PORTFOLIO MILESTONE 1 — FINAL SUBMISSION READINESS AUDIT
+
+Student: Syed Uzair Ali
+IBA ERP ID: 24763
+Course: MGT-353 Supply Chain Analytics
+Instructor: Mr. Faisal Jalal
+Company: Honda Atlas Cars (Pakistan) Limited
+Forecast object: Honda City 1.2L
+
+RUBRIC CHECK — 100 MARKS
+
+1. Decision framing & company relevance — 8/8
+   Product, weekly horizon, supply-chain decision owner, firm/flexible capacity decision and business consequence are explicit.
+
+2. Synthetic data quality & transparency — 12/12
+   156 weekly observations; target, price index, promotion/depth, event, economic driver, stockout and exceptional-event fields;
+   mandatory synthetic-data disclosure; data dictionary and assumption log.
+
+3. Demand-pattern diagnosis — 8/8
+   Historical plot, descriptive statistics, CV, event/promotion/stockout diagnosis and method-selection implication.
+
+4. Forecast model design & comparison — 16/16
+   Seven methods evaluated on the same final 12-week holdout, including simple baselines and two SES alphas.
+
+5. Forecast evaluation — 12/12
+   MAE/MAD, MAPE, RMSE, WAPE, Bias/MFE, RSFE and Tracking Signal are calculated and interpreted; large misses are diagnosed.
+
+6. Regression / causal-driver analysis — 12/12
+   Four drivers used; coefficients, R-squared, adjusted R-squared and p-values reported; associations are not overstated as causation.
+
+7. Validation & stress testing — 10/10
+   144/12 chronological split, leakage check, five largest misses, no suspiciously perfect accuracy, downside/upside/event/operational scenarios.
+
+8. Dashboard design & usability — 10/10
+   Executive KPI strip and required story flow: past → forecast → accuracy → drivers → uncertainty → decision.
+
+9. Decision storyboard & recommendation — 8/8
+   Six coherent frames; recommendation is quantified and includes risk and review trigger.
+
+10. AI use, auditability & professionalism — 4/4
+    AI Use Log, validation note, synthetic-data limitation and audit steps included.
+
+TOTAL READINESS: 100/100 against the stated rubric requirements.
+
+FINAL SUBMISSION CHECK
+[OK] Synthetic dataset
+[OK] Analysis workbook
+[OK] Google Colab notebook
+[OK] Interactive HTML dashboard
+[OK] 6-frame PowerPoint storyboard
+[OK] Executive Decision Memo
+[OK] Validation Note
+[OK] AI Use Log
+[OK] Student credits added
+[OK] Consistent file naming
+[OK] Recommendation quantified
+[OK] Review trigger stated
+
+IMPORTANT FINAL REVIEW BEFORE UPLOAD
+1. Open the HTML dashboard once in Chrome.
+2. Open the PowerPoint once and confirm all six slides render correctly.
+3. Open the three Word documents once and confirm the added submission-information block is visible.
+4. If the instructor requires a separate Google Drive/Colab link, upload the .ipynb and share that link.
+5. Do not alter the frozen demand values after model comparison.
+
+ACADEMIC LIMITATION
+The Honda City 1.2L weekly demand series, historical forecast, regression outputs, forecast results and scenario quantities are synthetic academic constructs.
+Honda Atlas annual-report facts are used only for company calibration/context and are not represented as internal weekly demand records.
